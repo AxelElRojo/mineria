@@ -7,7 +7,12 @@ Estos scripts hacen webscraping de inmuebles24, un sitio web para anunciar compr
 Es una técnica utilizada para extraer datos de páginas web de manera automatizada, en pocas palabras, el webscraping nos permite conseguir grandes cantidades de datos de una página web sin tener que hacer el trabajo manual. En este caso, el webscraping se utiliza para construir el dataset del proyecto, el dataset consiste en anuncios de casas en venta.
 
 Utilizamos Selenium para el webscraping, es un conjunto de herramientas que automatizan navegadores mediante una API y permiten el webscraping mediante la misma.
+# Dependencias
+Los scripts dependen de las siguientes librerías:
+- `selenium`
+- `pandas`
 
+Además, se utilizan otras librerías incluídas, que no es necesario instalar.
 # Archivos
 El repo contiene los siguientes archivos:
 - `scraper.sh`: Ejecuta el script de Selenium n veces, utilizamos un script de bash porque hacer repetidas conexiones en el mismo script de Python
